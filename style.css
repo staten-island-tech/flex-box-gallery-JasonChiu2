@@ -6,13 +6,18 @@ body,
   box-sizing: border-box;
   font-size: 62.5%;
 }
-.cards {
-  font-size: 100px;
+.about {
+  height: 100vh;
+  background-color: blue;
+  flex-direction: row;
+  align-items: center;
   display: flex;
+}
+.cards {
+  height: 3rem;
+  background-color: indianred;
+  height: 90%;
+  width: 25%;
   justify-content: space-around;
-}
-.child {
-  width: 28%;
-}
-.child-1 {
+  margin: 0 auto;
 }
