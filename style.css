@@ -7,17 +7,23 @@ body,
   font-size: 62.5%;
 }
 .about {
-  height: 100vh;
   background-color: blue;
   flex-direction: row;
   align-items: center;
   display: flex;
+  justify-content: space-between;
+  height: 100%;
 }
 .cards {
-  height: 3rem;
   background-color: indianred;
   height: 90%;
   width: 25%;
-  justify-content: space-around;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about-img {
+  height: 25%;
 }
