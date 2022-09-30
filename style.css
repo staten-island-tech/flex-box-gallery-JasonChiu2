@@ -29,12 +29,12 @@ body,
   height: 25%;
   box-shadow: 10px 10px 10px;
 }
-h1 {
+.header {
   text-align: center;
   font-size: 4rem;
   font-family: "Abyssinica SIL", serif;
 }
-h2 {
+.caption {
   font-family: "Abyssinica SIL", serif;
   font-size: 1.5rem;
   text-align: center;
