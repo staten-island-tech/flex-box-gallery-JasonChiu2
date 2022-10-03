@@ -7,12 +7,10 @@ body,
   font-size: 62.5%;
   background-color: #0c64e8;
 }
-.about {
+.parent {
   flex-direction: row;
   align-items: center;
   display: flex;
-  justify-content: space-between;
-  height: 94%;
 }
 .cards {
   height: 90%;
@@ -26,7 +24,10 @@ body,
   border-radius: 12px;
 }
 .about-img {
-  height: 25%;
+  float: left;
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
   box-shadow: 10px 10px 10px;
 }
 .header {
@@ -39,4 +40,5 @@ body,
   font-size: 1.5rem;
   text-align: center;
   background-color: red;
+  margin: 1.8rem;
 }
