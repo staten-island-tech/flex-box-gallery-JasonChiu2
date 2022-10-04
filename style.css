@@ -13,15 +13,14 @@ body,
   display: flex;
 }
 .cards {
-  height: 90%;
   width: 25%;
-  margin: 0 auto;
+  margin: 15 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
   background-color: red;
   border-radius: 12px;
+  box-shadow: 8px 8px, -8px -8px;
 }
 .about-img {
   float: left;
@@ -29,16 +28,18 @@ body,
   height: 60%;
   object-fit: cover;
   box-shadow: 10px 10px 10px;
+  margin: 0.8rem;
 }
 .header {
   text-align: center;
   font-size: 4rem;
   font-family: "Abyssinica SIL", serif;
+  margin: 1.5rem 1.5rem;
 }
 .caption {
   font-family: "Abyssinica SIL", serif;
   font-size: 1.5rem;
   text-align: center;
   background-color: red;
-  margin: 1.8rem;
+  margin: 1.5rem;
 }
