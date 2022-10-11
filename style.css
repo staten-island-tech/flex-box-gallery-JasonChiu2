@@ -28,7 +28,7 @@ body,
   transition: 0.3s all;
 }
 .cards:hover {
-  transform: scale(1.15);
+  transform: scale(1.15) rotate(360deg);
   outline: 10px solid;
   cursor: pointer;
 }
