@@ -66,3 +66,20 @@ body,
     transform: translateX(-500px);
   }
 }
+@media screen and (max-width: 492px) {
+  /* start of phone styles */
+  @keyframes move {
+    0% {
+      transform: translateX(-33px);
+    }
+    50% {
+      transform: translateX(33px);
+    }
+    100% {
+      transform: translateX(-33px);
+    }
+  }
+  .header {
+    animation: move 30s infinite;
+  }
+}
