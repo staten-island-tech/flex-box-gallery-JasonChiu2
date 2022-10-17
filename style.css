@@ -79,7 +79,7 @@ body,
     }
   }
 }
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 786px) or (max-width: 1024px) {
   @keyframes move {
     0% {
       transform: translateX(-33px);
@@ -92,6 +92,6 @@ body,
     }
   }
   .cards:hover {
-    outline: 5px solid;
+    outline: 0px solid;
   }
 }
