@@ -79,7 +79,7 @@ body,
     }
   }
 }
-@media screen and (max-width: 786px) or (max-width: 1024px) {
+@media screen and (max-width: 786px) and (max-width: 1024px) {
   @keyframes move {
     0% {
       transform: translateX(-33px);
