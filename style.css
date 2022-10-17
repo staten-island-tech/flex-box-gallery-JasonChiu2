@@ -110,6 +110,5 @@ body,
   }
   .cards:hover {
     outline: 0px solid;
-    transform: rotate(360deg);
   }
 }
