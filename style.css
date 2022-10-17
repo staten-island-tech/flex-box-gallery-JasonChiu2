@@ -79,7 +79,7 @@ body,
     }
   }
 }
-@media screen and (max-width: 786px) and (max-width: 1024px) {
+@media screen and (max-width: 786px) {
   @keyframes move {
     0% {
       transform: translateX(-33px);
@@ -93,5 +93,23 @@ body,
   }
   .cards:hover {
     outline: 0px solid;
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 1024px) {
+  @keyframes move {
+    0% {
+      transform: translateX(-33px);
+    }
+    50% {
+      transform: translateX(33px);
+    }
+    100% {
+      transform: translateX(-33px);
+    }
+  }
+  .cards:hover {
+    outline: 0px solid;
+    transform: rotate(360deg);
   }
 }
