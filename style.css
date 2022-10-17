@@ -93,7 +93,6 @@ body,
   }
   .cards:hover {
     outline: 0px solid;
-    transform: rotate(360deg);
   }
 }
 @media screen and (max-width: 1024px) {
