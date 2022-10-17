@@ -91,4 +91,6 @@ body,
       transform: translateX(-33px);
     }
   }
+  .cards:hover {
+    outline: 5px solid;
 }
