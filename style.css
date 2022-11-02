@@ -66,48 +66,59 @@ body,
     transform: translateX(-500px);
   }
 }
-@media screen and (max-width: 492px) {
-  @keyframes move {
-    0% {
-      transform: translateX(-33px);
+  @media screen and (max-width: 390px) {
+    @keyframes move {
+      0% {
+        transform: translateX(-40px);
+      }
+      50% {
+        transform: translateX(-38px);
+      }
+      100% {
+        transform: translateX(-40px);
+      }
     }
-    50% {
-      transform: translateX(33px);
+    .header {
+      font-size: 3rem;
+      margin: 10px;
     }
-    100% {
-      transform: translateX(-33px);
+    .cards:hover {
+      outline: 0px solid;
     }
-  }
-}
-@media screen and (max-width: 786px) {
-  @keyframes move {
-    0% {
-      transform: translateX(-33px);
+    .cards {
+      width: 65%;
+      margin-left: 30px;
     }
-    50% {
-      transform: translateX(33px);
-    }
-    100% {
-      transform: translateX(-33px);
-    }
-  }
-  .cards:hover {
-    outline: 0px solid;
-  }
-}
-@media screen and (max-width: 1024px) {
-  @keyframes move {
-    0% {
-      transform: translateX(-33px);
-    }
-    50% {
-      transform: translateX(33px);
-    }
-    100% {
-      transform: translateX(-33px);
+    .parent {
+      flex-direction: column;
     }
   }
-  .cards:hover {
-    outline: 0px solid;
+  
+ /*  @media screen and (max-width: 786px) {
+    @keyframes move {
+      0% {
+        transform: translateX(-33px);
+      }
+      50% {
+        transform: translateX(33px);
+      }
+      100% {
+        transform: translateX(-33px);
+      }
+    }
+    .cards:hover {
+      outline: 0px solid;
+    }
   }
-}
+  @media screen and (max-width: 1024px) {
+    @keyframes move {
+      0% {
+        transform: translateX(-33px);
+      }
+      50% {
+        transform: translateX(33px);
+      }
+      100% {
+        transform: translateX(-33px);
+      }
+    } */
